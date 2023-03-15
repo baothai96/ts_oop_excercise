@@ -14,7 +14,7 @@ class Shape implements IShape {
     }
     
     getArea(): number {
-        return 1;
+        return -1; //default value
     }
 
     // overloading
